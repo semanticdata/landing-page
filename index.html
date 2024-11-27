@@ -8,6 +8,12 @@
     <meta name="description" content="A simple landing page.">
     <!-- <link rel="stylesheet" href="style.css" /> -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
     <style>
         html,
         body {
@@ -17,9 +23,9 @@
             width: 100%;
             overflow: hidden;
             display: flex;
-            font-family: sans-serif;
             background: #213334;
             color: white;
+            font-family: 'Poppins', sans-serif;
         }
 
         body {
@@ -51,7 +57,8 @@
 
         .right h1 {
             margin-bottom: 20px;
-            font-size: 2em;
+            font-size: 3em;
+            font-family: 'Bitter', serif;
             /* text-align: center; */
             /* color: rebeccapurple; */
         }
@@ -60,6 +67,7 @@
             /* text-align: center; */
             /* text-align: justify; */
             margin-bottom: 20px;
+            font-size: 1.25em;
         }
 
         .right .profile-links {
@@ -86,6 +94,10 @@
             /* background: rebeccapurple; */
             color: white !important;
             font-weight: normal !important;
+        }
+
+        a.button:hover {
+            background: #0056b3 !important;
         }
 
         @media (max-width: 800px) {
@@ -120,8 +132,8 @@
             sagittis dui egestas. Mauris bibendum elementum augue, nec sollicitudin est ultricies sit amet. Quisque
             dapibus, arcu mattis accumsan condimentum, eros nibh blandit lacus, eu tempus erat enim ac lacus.</p>
         <div class="profile-links">
-            <a href="#" class="button">GitHub</a>
-            <a href="#" class="button">Mastodon</a>
+            <a href="https://miguelpimentel.do/" class="button">Blog</a>
+            <a href="https://github.com/semanticdata/landing-page" class="button">GitHub</a>
             <a href="#" class="button">Instagram</a>
         </div>
     </div>
